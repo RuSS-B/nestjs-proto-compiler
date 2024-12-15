@@ -1,5 +1,5 @@
 {
-  "name": "nest-proto-compiler",
+  "name": "nest-protoforge",
   "version": "1.0.0",
   "description": "NestJS module for loading proto files from gRPC reflection",
   "main": "dist/index.js",
@@ -22,6 +22,10 @@
   ],
   "author": "Russ Balabanov",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuSS-B/nestjs-protoforge.git"
+  },
   "peerDependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0"
